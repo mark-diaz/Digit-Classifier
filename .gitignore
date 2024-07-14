@@ -1,0 +1,25 @@
+# macOS and vscode
+.DS_Store
+.vscode/
+*.code-workspace
+
+# STM32 
+*.dep
+*.o
+*.d
+*.su
+*.lst
+*.map
+*.exp
+*.lib
+*.elf
+*.axf
+*.hex
+*.bin
+*.srec
+*.hmap
+*.out
+*.lss
+*.ihex
+*.isym
+*.gch
