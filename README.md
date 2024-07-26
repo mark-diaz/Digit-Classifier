@@ -2,7 +2,10 @@
 - This project utilizes Digital Signal Processing and Machine Learning techniques to classify motion patterns: in this specific use case: digits!
 - It utilizes the ARM-Based STM32 Microcontroller and its on-board accelerometer
 	- This board had 2 megabytes of Flash memory with 786 Kilobytes of SRAM
-- This project is written in C and utilizes the STM Cube IDE 
+- This project is written in C and utilizes the STM Cube IDE
+- For a more detailed overview my system design please see `APPENDIX.md`
+- For an example console output through model training and classification please see `Console_Output.txt`
+
 #### System Design:
 ```mermaid
 flowchart LR
@@ -49,4 +52,4 @@ Contains the code for:
 - This product can also be used to aid those who do not have the dexterity to draw numbers but can move a box to draw digits
 
 #### Thank you for reading this
-- Please see my presentation slides for a more detailed report of my design process!
+- I appreciate your time and thank you for reading this!
