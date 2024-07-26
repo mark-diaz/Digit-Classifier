@@ -133,6 +133,7 @@ $\large F_m = \frac{V_{mx}}{V_{norm}}$ and $\large F_m = \frac{V_{my}}{V_{norm}}
 - There are six output neurons for six different digits it can classify 
 
 <img src="images/nn_arch.png" alt="NN Arch" width="400" />
+
 #### Neural Network Training Process
 
 ```mermaid
@@ -172,9 +173,6 @@ flowchart TD
     style E fill:#4a86e8,stroke:#333,stroke-width:2px
     style F fill:#4a86e8,stroke:#333,stroke-width:2px
 ```
-
-#### Console Output and Training
-- For details about an example console output for a typical training and classification please see `Console_Output.txt`
 
 #### Project Results and Evaluation
 - Sampling results across fifty different classifications this system predicted 47 of them to be the correct digit: 94% Accuracy!
