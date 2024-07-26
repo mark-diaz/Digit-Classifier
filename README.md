@@ -15,7 +15,28 @@ flowchart LR
     style C fill:#4a86e8,stroke:#333,stroke-width:2px
     style D fill:#4a86e8,stroke:#333,stroke-width:2px
     style E fill:#4a86e8,stroke:#333,stroke-width:2px
-``` 
+```
+
+#### Navigating the Code:
+- The code I wrote is in `main.c` and `embedded_ML.c` utilizing the STM32 example design and an Embedded Machine Learning Library written by TA Charles Zaloom
+
+`main.c`:
+
+Contains the code for:
+- STM32 setup code (Clock frequency, HAL Library, Instruction Cache, etc)
+- The instantiation of the Neural Network with appropriate parameters and random number generation
+- Infinite loop to start training and classification 
+
+`embedded_ML.c`:
+
+Contains the code for:
+- Digital signal processing (velocity calculations, sampling, and filtering)
+- Feature extraction and training loops for machine learning 
+- Classification calculations taking max softmax output
+- Helper functions to provide LED output to help user with performing motions
+- Machine Learning Library code for gradient descent and back propagation
+
+
 #### Project Results and Evaluation
 - Sampling results across fifty different classifications this system predicted 47 of them to be the correct digit: 94% Accuracy!
 	- The wrong predictions were likely to have been introduced by human error in data collection
