@@ -173,6 +173,9 @@ flowchart TD
     style F fill:#4a86e8,stroke:#333,stroke-width:2px
 ```
 
+#### Console Output and Training
+- For details about an example console output for a typical training and classification please see `Console_Output.txt`
+
 #### Project Results and Evaluation
 - Sampling results across fifty different classifications this system predicted 47 of them to be the correct digit: 94% Accuracy!
 	- The wrong predictions were likely to have been introduced by human error in data collection
