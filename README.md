@@ -22,6 +22,7 @@ flowchart LR
 - This project is a dynamic system that can train on changing data depending on what we want to classify in the field and Embedded ML is very flexible and dynamic 
 	- In this case we are simply detecting digits and can recognize different letters and digits 
 - I enjoyed this project because Internet of Things (IoT) requires many disciplines of engineering including: Transducers and Sensors, Digital Signal Processing, Embedded Systems, and Machine Learning!
+
 **Product use and Application**: Education and Accessibilty
 - This product can be used to teach young children how to correctly draw numbers and provide feedback
 - This product can also be used to aid those who do not have the dexterity to draw numbers but can move a box to draw digits
