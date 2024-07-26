@@ -27,4 +27,4 @@ flowchart LR
 - This product can also be used to aid those who do not have the dexterity to draw numbers but can move a box to draw digits
 
 #### Thank you for reading this
-- Please see my [website](https://mark-diaz.github.io/) for a more detailed report of my design process
+- Please see my presentation slides for a more detailed report of my design process!
