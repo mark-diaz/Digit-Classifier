@@ -1,24 +1,14 @@
 #### Motion Classification 
 - This project utilizes Digital Signal Processing and Machine Learning techniques to classify motion patterns: in this specific use case: digits!
+- For a more detailed overview my system design please see `APPENDIX.md`
 - It utilizes the ARM-Based STM32 Microcontroller and its on-board accelerometer
 	- This board had 2 megabytes of Flash memory with 786 Kilobytes of SRAM
 - This project is written in C and utilizes the STM Cube IDE
-- For a more detailed overview my system design please see `APPENDIX.md`
 - For an example console output through model training and classification please see `Console_Output.txt`
 
 #### System Design:
-```mermaid
-flowchart LR
-    A[Sensor Input] --> B[ADC]
-    B --> C[DSP]
-    C --> D[ML]
-    D -->  E[Classifier Output]
-    style A fill:#4a86e8,stroke:#333,stroke-width:2px
-    style B fill:#4a86e8,stroke:#333,stroke-width:2px
-    style C fill:#4a86e8,stroke:#333,stroke-width:2px
-    style D fill:#4a86e8,stroke:#333,stroke-width:2px
-    style E fill:#4a86e8,stroke:#333,stroke-width:2px
-```
+<img width="868" alt="image" src="https://github.com/user-attachments/assets/5e1aa356-40eb-4e0f-9e4d-63b6bfb4b227">
+
 
 #### Navigating the Code:
 - The code I wrote is in `main.c` and `embedded_ML.c` utilizing the STM32 example design and an Embedded Machine Learning Library written by TA Charles Zaloom
@@ -37,7 +27,7 @@ Contains the code for:
 - Feature extraction and training loops for machine learning 
 - Classification calculations taking max softmax output
 - Helper functions to provide LED output to help user with performing motions
-- Machine Learning Library code for gradient descent and back propagation
+- Machine learning library code for gradient descent and back propagation
 
 
 #### Project Results and Evaluation
