@@ -122,9 +122,11 @@ $$
 
 #### Feature Normalization prior to the Neural Network
 - Before we input a feature to the neural network we have to normalize it with the softmax algorithm  
+
 $\large v_{norm} = \sum{(V_{nx}^2+V_{xy}^2)}$
 - We sum up all of the two velocities for each the five motion segments
 **For each M input features** (10):
+
 $\large F_m = \frac{V_{mx}}{V_{norm}}$ and $\large F_m = \frac{V_{my}}{V_{norm}}$
 
 #### Neural Network Architecture
