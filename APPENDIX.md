@@ -70,6 +70,7 @@ $$
 - Filters can be applied to digital signals using the Z-transform (the digital counterpart to the Laplace transform)
 - Doing so allows you to take approximations and simplify the differential equation into an algebraic term with constants 
 - This is much easier to implement in code especially in C
+
 **Low Pass IIR Filter**: 
 
 $$
